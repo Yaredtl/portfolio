@@ -3,14 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fuente de Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Gabriel Yared Portfolio</title>
 </head>
 <body>
-    <header></header>
-    <section id="intro">
-        <p>My name is Yared</p>
-        <h2>Web developer</h2>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#personal-info"> <i class="fa-regular fa-user"></i> About me!</a></li>
+            <li><a href="#projects"><i class="fa-regular fa-clipboard"></i>Projects</a></li>
+            <li><a href="#contact-me"><i class="fa-regular fa-envelope"></i>Contact</a></li>
+            <li><a href="#skills"><i class="fa-regular fa-hand-peace"></i>Skills</a></li>
+        </ul>
+    </nav>
+    
+    <section id="personal-info">
+        <p>Hi, my name is <span>Gabriel Yared</span></p>
+        <h2>I am a web developer junior</h2>
         <p>I am a passionate web developer focused on creating intuitive and responsive web solutions using modern technologies. Skilled in HTML, CSS, and JavaScript.</p>
+        <p>Here you can check my <a href="https://github.com/Yaredtl/DAW-PROJECTS-YARED" target="_blank">projects</a></p> 
     </section>
+    <div class="gradient"></div>
+    <section id="projects">
+        <h2>Latest projects</h2>
+        <article>
+            <div class="text">
+                <h3>My own portfolio</h3>
+                <div class="backDesc">
+                    <p>Description: I developed a responsive portfolio website showcasing my web development projects and skills. The site features a clean, modern design with smooth scrolling navigation, interactive elements, and optimized performance across all devices. It demonstrates my proficiency in front-end development and attention to detail in UI/UX design.</p>
+                </div>
+                <h4>Technologies used: </h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>SVG</li>
+                </ul>
+            </div>
+            <img src="./sources/placeholderimage.svg">
+        </article>
+    </section>
+    <div class="gradient"></div>
+    <section id="skills">
+            <div class="card">
+                <img src="./sources/html-5-logo-svgrepo-com.svg" alt="HTML Logo">
+                <h3>HTML</h3>
+                <p>Lenguaje de marcado para estructurar páginas web.</p>
+            </div>
+            <div class="card">
+                <img src="./sources/css-3-svgrepo-com.svg" alt="CSS Logo">
+                <h3>CSS</h3>
+                <p>Estiliza y da diseño a las páginas web.</p>
+            </div>
+            <div class="card">
+                <img src="./sources/js-official-svgrepo-com.svg" alt="CSS Logo">
+                <h3>JS</h3>
+                <p>Juega con las páginas web.</p>
+            </div>
+            <div class="card">
+                <img src="./sources/react-javascript-js-framework-facebook-svgrepo-com.svg" alt="CSS Logo">
+                <h3>REACT</h3>
+                <p>Un poquito mas de diversion.</p>
+            </div>
+            <div class="card">
+                <img src="./sources/angular-svgrepo-com.svg" alt="CSS Logo">
+                <h3>ANGULAR</h3>
+                <p>Juega con las páginas web, pero con google.</p>
+            </div>
+            <div class="card">
+                <img src="./sources/java-svgrepo-com.svg" alt="CSS Logo">
+                <h3>JAVA</h3>
+                <p>Objetos de chill.</p>
+            </div>
+    </section>
+    <div class="gradient"></div>
+    <section id="contact-me">
+        <h2>Contact me</h2>
+        <p>I'm actively seeking new opportunities and excited to collaborate on web development projects. Let's create something amazing together!</p>
+        <a id="contact-button" href="mailto:klvhoe@gmail.com"><i class="fa-regular fa-envelope"></i>Email me!</a>
+    </section>
+    <div class="gradient"></div>
+    <!-- SCROLL BUTTON -->
+    <button id="scrollToTop">&#8593;</button>
+
+    <!-- SCRIPTS ZONE START -->
+        <script src="https://kit.fontawesome.com/e0b3d9bb1f.js" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+    <!-- SCRIPTS ZONE END -->
+    <footer id="footer">
+        <p>&copy; 2025 Created by Gabriel Yared.</p>
+    </footer>
 </body>
 </html>
